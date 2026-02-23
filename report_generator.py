@@ -136,7 +136,7 @@ def draw_header_footer(canvas, doc):
     # Header Text
     canvas.setFont("Helvetica-Bold", 18)
     canvas.setFillColor(colors.white)
-    canvas.drawString(0.5 * inch, page_height - 0.9 * inch, "SRIYA.AI ANALYTICS")
+    canvas.drawString(0.5 * inch, page_height - 0.9 * inch, "Kartik Lohani")
     
     canvas.setFont("Helvetica", 10)
     canvas.drawString(0.5 * inch, page_height - 1.1 * inch, "Intelligent Video Object Detection")
