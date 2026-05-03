@@ -8,7 +8,6 @@ lapx
 groq
 openai
 numpy
-opencv-python
 torch
 torchvision
 streamlit
@@ -19,3 +18,4 @@ groq
 openai
 reportlab
 matplotlib
+opencv-python==4.9.0.80
