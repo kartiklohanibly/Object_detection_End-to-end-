@@ -1,9 +1,9 @@
 streamlit
 ultralytics
-opencv-python-headless
+opencv-python-headless==4.9.0.80
 matplotlib
 reportlab
-numpy
+numpy<2.0
 pillow
 lapx
 groq
