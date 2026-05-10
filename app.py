@@ -137,8 +137,8 @@ if input_source == "🔴 Live Webcam Feed":
         st.markdown('<div class="live-feed-box">', unsafe_allow_html=True)
         st.subheader("📡 Real-Time Detection")
         
-        run_live = st.toggle("▶️ Start Live Camera", value=False)
-        st_frame = st.image([]) 
+        run_live = st.checkbox("▶️ Start Live Camera", value=False, key="run_live")
+        st_frame = st.empty() 
         
         if run_live:
             cap = cv2.VideoCapture(0)
